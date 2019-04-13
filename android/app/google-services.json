@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "434632616352",
+    "firebase_url": "https://leoapp-31ddc.firebaseio.com",
+    "project_id": "leoapp-31ddc",
+    "storage_bucket": "leoapp-31ddc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434632616352:android:6010e4d22b7b8ed5",
+        "android_client_info": {
+          "package_name": "com.example.leoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434632616352-o7kvtfs59tppv4tc56go9n5c0ubf9rv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBztputaJ4Kf1WOQ5PCkJz-4oasdU15yUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434632616352-o7kvtfs59tppv4tc56go9n5c0ubf9rv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
