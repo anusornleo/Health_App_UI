@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:healthapp/ui/foodUI.dart';
 
 List<StaggeredTile> _staggeredTiles = const <StaggeredTile>[
   const StaggeredTile.count(4, 2),
@@ -22,7 +23,12 @@ List<Widget> _tiles = const <Widget>[
   const _Example01Tile(Colors.white, Icons.bluetooth),
 ];
 
-class MyHomePage extends StatelessWidget {
+class Home extends StatefulWidget {
+  @override
+  HomeState createState() => HomeState();
+}
+
+class HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -172,7 +178,10 @@ class Tile2 extends StatelessWidget {
     return new Card(
       color: Colors.white,
       child: new InkWell(
-          onTap: () {},
+          onTap: () {
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => FoodPage()));
+          },
           child: Container(
             margin: const EdgeInsets.all(20.0),
             color: const Color(0xFF00FF00),
@@ -180,7 +189,7 @@ class Tile2 extends StatelessWidget {
             child: Column(
               children: <Widget>[
                 new Row(
-                  children: <Widget>[Text("Step")],
+                  children: <Widget>[Text("Food")],
                 ),
                 Container(
                     color: Colors.blueAccent,

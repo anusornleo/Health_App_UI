@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:healthapp/ui/home.dart';
-import 'package:healthapp/ui/login.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,11 +10,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        fontFamily: 'SF-Pro-Text',
+        fontFamily: 'SF-Pro-Text8',
       ),
       initialRoute: "/",
       routes: {
-        "/": (context) => MyHomePage(),
+        "/": (context) => Home(),
       },
     );
   }
